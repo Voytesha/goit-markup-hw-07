@@ -2,7 +2,7 @@
     display: flex;
     gap: 30px;
 
-&-icon {
+&__icon {
     display: flex;
     margin-bottom: 30px;
     align-items: center;
@@ -11,7 +11,7 @@
     height: 120px;
     background-color: var(--second-bcg-color);
 }
-&-title {
+&__title {
     @include font(14px, 700, 1.14);
     
     margin-bottom: 10px;
@@ -19,7 +19,7 @@
     text-transform: uppercase;
     color: var(--title-text-color);
 }
-&-text {
+&__text {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;

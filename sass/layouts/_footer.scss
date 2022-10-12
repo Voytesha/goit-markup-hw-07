@@ -1,4 +1,4 @@
-.footer-logo {
+.footer__logo {
     @include font(26px, 700, 1.19);
     
     display: block;
@@ -10,7 +10,7 @@
     color: var(--primary-background-color);
 }
 
-.footer-container {
+.footer__container {
     display: flex;
     align-items: baseline;
 }
@@ -21,11 +21,11 @@
     padding-bottom: 60px;
 }
 
-.footer-contact {
+.footer__contact {
     margin-bottom: 9px;
 }
 
-.footer-contact:last-child {
+.footer__contact:last-child {
     margin-bottom: 0;
 }
 
@@ -37,7 +37,7 @@
     color: var(--primary-background-color);
 }
 
-.footer-link {
+.footer__link {
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
@@ -46,8 +46,8 @@
     text-decoration: none;
 }
 
-.footer-link .link:hover,
-.footer-link .link:focus {
+.footer__link .link:hover,
+.footer__link .link:focus {
     color: var(--primary-bcg-color);
 }
 
@@ -67,7 +67,7 @@
     gap: 10px;
 }
 
-.footer-title {
+.footer__title {
     display: block;
     margin-bottom: 20px;
     font-weight: 700;

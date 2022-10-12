@@ -2,9 +2,9 @@
     padding-top: 0px;
 }
 
-.samples-title,
-.team-title,
-.clients-title {
+.samples__title,
+.team__title,
+.clients__title {
     @include font(36px, 700, 1.67);
 
     margin-bottom: 50px;
@@ -13,7 +13,7 @@
     color: var(--title-text-color);
 }
 
-.samples-image {
+.samples__image {
     display: flex;
     gap: 30px;
 }
@@ -24,12 +24,12 @@ img {
     height: auto;
 }
 
-.samples-block {
+.samples__block {
     display: block;
     position: relative;
 }
 
-.samples-text {
+.samples__text {
     display: flex;
     justify-content: center;
     align-items: center;
