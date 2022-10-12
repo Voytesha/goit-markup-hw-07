@@ -5,11 +5,10 @@
 .samples-title,
 .team-title,
 .clients-title {
+    @include font(36px, 700, 1.67);
+
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
     text-align: center;
-    line-height: 1.67;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }

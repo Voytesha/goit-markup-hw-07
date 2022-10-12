@@ -1,9 +1,8 @@
 .portfolio-button {
+  @include font(16px, 500, 1.62);
+  
   color: var(--title-text-color);
   background: var(--second-bcg-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
   border: var(--second-bcg-color);
   border-radius: 4px;
   cursor: pointer;
@@ -98,10 +97,9 @@
 }
 
 .example-title {
+  @include font(18px, 700, 2);
+
   margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }

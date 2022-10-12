@@ -10,18 +10,28 @@
 .member {
     padding-top: 30px;
     padding-bottom: 30px;
-}
+    
+    &-title {
+    @include font(16px, 500, 1.19);
 
-.member-title {
     display: block;
     margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--title-text-color);
 }
+    &-position {
+    @include font(16px, 400, 1.19);
+
+    display: block;
+    margin-bottom: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+}
+
+
 
 .team-item {
     background-color: var(--primary-background-color);
@@ -65,15 +75,4 @@
 .social-link:hover svg {
     fill: var(--primary-background-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.member-position {
-    display: block;
-    margin-bottom: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--primary-text-color);
 }

@@ -1,9 +1,7 @@
 .clients {
     display: flex;
     justify-content: center;
-}
-
-.clients-logo {
+&-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +10,7 @@
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 3px;
+}
 }
 
 .clients-logo svg {
