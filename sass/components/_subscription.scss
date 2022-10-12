@@ -3,11 +3,11 @@
     margin-left: auto;
 }
 
-.footer-subscription {
+.footer__subscription {
     display: flex;
 }
 
-.footer-subscription input {
+.footer__subscription input {
     margin-right: 12px;
     padding-left: 16px;
     width: 358px;
@@ -23,7 +23,7 @@
     border-radius: 4px;
     outline: none;
 }
-.subscribe-btn {
+.subscribe__btn {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -44,6 +44,6 @@
     fill: var(--primary-background-color);
 }
 
-.subscribe-btn svg {
+.subscribe__btn svg {
     margin-left: 10px;
 }

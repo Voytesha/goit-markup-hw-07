@@ -511,7 +511,7 @@ img {
   margin-left: 70px;
 }
 
-.footer-social-container {
+.connect__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,14 +520,14 @@ img {
   margin-top: 20px;
 }
 
-.footer-social-item {
+.connect__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
 
-.footer__title {
+.connect__title {
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
@@ -535,13 +535,13 @@ img {
   text-transform: uppercase;
 }
 
-.footer-icon {
+.connect__icon {
   height: 20px;
   width: 20px;
   fill: #ffffff;
 }
 
-.footer-button {
+.connect__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,8 +560,8 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-button:hover,
-.footer-button:focus {
+.connect__button:hover,
+.connect__button:focus {
   background-color: var(--accent-color);
 }
 
@@ -803,13 +803,13 @@ textarea {
   margin-left: auto;
 }
 
-.footer-subscription {
+.footer__subscription {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.footer-subscription input {
+.footer__subscription input {
   margin-right: 12px;
   padding-left: 16px;
   width: 358px;
@@ -826,7 +826,7 @@ textarea {
   outline: none;
 }
 
-.subscribe-btn {
+.subscribe__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -851,7 +851,7 @@ textarea {
   fill: var(--primary-background-color);
 }
 
-.subscribe-btn svg {
+.subscribe__btn svg {
   margin-left: 10px;
 }
 
