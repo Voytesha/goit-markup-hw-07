@@ -1,9 +1,9 @@
-.our-clients {
+.clients {
     display: flex;
     justify-content: center;
 }
 
-.clients-icon {
+.clients-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,21 +14,21 @@
     border-radius: 3px;
 }
 
-.clients-icon svg {
+.clients-logo svg {
     fill: #afb1b8;
 }
 
-.clients-icon:hover {
+.clients-logo:hover {
     border: 1px solid var(--accent-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icon:hover svg,
-.clients-icon:focus svg {
+.clients-logo:hover svg,
+.clients-logo:focus svg {
     fill: var(--accent-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icon.current svg {
+.clients-logo.current svg {
     color: var(--accent-color);
 }
